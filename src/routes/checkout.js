@@ -3,7 +3,6 @@ import { FRAUD_THRESHOLD } from "../config/config.js";
 import { calculateRisk } from "../services/riskEngine.js";
 
 const router = express.Router();
-console.log("New version of checkout route running");
 
 router.post("/risk", (req, res) => {
   console.log("Request hit /checkout/risk");
