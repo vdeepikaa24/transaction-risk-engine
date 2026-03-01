@@ -160,3 +160,6 @@ transaction-risk-engine/
 5. **Logging & Monitoring**: Add structured logging and metrics
 6. **Authentication**: Add JWT/API key authentication for endpoints
 7. **Multiple Thresholds**: Support different thresholds per merchant or transaction type
+
+## Improvement
+Refactored risk scoring logic for better clarity.
